@@ -1,0 +1,16 @@
+{
+  "name": "draft-team-app",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:desktop": "npm --workspace @draft-team-app/desktop run dev",
+    "build:desktop": "npm --workspace @draft-team-app/desktop run build",
+    "test:desktop": "npm --workspace @draft-team-app/desktop run test",
+    "lint": "npm --workspace @draft-team-app/desktop run lint",
+    "typecheck": "npm --workspace @draft-team-app/desktop run typecheck"
+  }
+}
