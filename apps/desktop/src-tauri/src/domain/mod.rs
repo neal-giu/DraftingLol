@@ -1,1 +1,4 @@
-//! Module placeholder for the Draft Team App Tauri backend.
+pub mod champion;
+pub mod composition;
+pub mod draft;
+pub mod scoring;
