@@ -1,0 +1,18 @@
+{
+  "id": "ahri",
+  "key": "103",
+  "name": "Ahri",
+  "patch": "15.6",
+  "compatibleSince": "15.6",
+  "roles": ["mid"],
+  "archetypes": ["pick", "mobility", "skirmish"],
+  "strengths": [
+    "Crée des catches fiables autour de la vision",
+    "Convertit rapidement les priorités mid en tempo carte"
+  ],
+  "weaknesses": [
+    "Portée limitée contre les compositions de poke lourd",
+    "Dépend d'un premier timing d'objets propre pour snowball"
+  ],
+  "incomplete_profile": false
+}

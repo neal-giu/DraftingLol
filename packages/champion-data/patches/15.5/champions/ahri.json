@@ -1,0 +1,16 @@
+{
+  "id": "ahri",
+  "key": "103",
+  "name": "Ahri",
+  "patch": "15.5",
+  "compatibleSince": "15.5",
+  "roles": ["mid"],
+  "archetypes": ["pick", "mobility"],
+  "strengths": [
+    "Menace de catch fiable sur les supports immobiles"
+  ],
+  "weaknesses": [
+    "Moins de pression si la priorité mid n'est pas sécurisée"
+  ],
+  "incomplete_profile": false
+}

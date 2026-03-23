@@ -1,0 +1,17 @@
+{
+  "id": "smolder",
+  "key": "901",
+  "name": "Smolder",
+  "patch": "15.6",
+  "compatibleSince": "15.6",
+  "roles": ["bottom"],
+  "archetypes": ["scaling", "poke"],
+  "strengths": [
+    "Très bonne assurance late game",
+    "Apporte une menace de poke constante autour des objectifs"
+  ],
+  "weaknesses": [
+    "Lane vulnérable si la wave est mal gérée"
+  ],
+  "incomplete_profile": true
+}
