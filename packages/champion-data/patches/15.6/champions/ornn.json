@@ -1,0 +1,18 @@
+{
+  "id": "ornn",
+  "key": "516",
+  "name": "Ornn",
+  "patch": "15.6",
+  "compatibleSince": "15.6",
+  "roles": ["top"],
+  "archetypes": ["engage", "front_to_back", "scaling"],
+  "strengths": [
+    "Offre une engage primaire très stable",
+    "Sécurise les teamfights front-to-back et améliore le scaling d'équipe"
+  ],
+  "weaknesses": [
+    "Peut subir les lanes très dominantes à range",
+    "Nécessite une coordination correcte sur les timings d'engage"
+  ],
+  "incomplete_profile": false
+}
