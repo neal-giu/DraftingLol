@@ -15,9 +15,16 @@ use commands::{
         run_sandbox_simulation,
     },
 };
+use services::AppState;
 
 fn main() {
     tauri::Builder::default()
+        .setup(|app| {
+            let app_state = tauri::async_runtime::block_on(AppState::initialize())
+                .map_err(|error| -> Box<dyn std::error::Error> { Box::new(error) })?;
+            app.manage(app_state);
+            Ok(())
+        })
         .invoke_handler(tauri::generate_handler![
             healthcheck,
             recommend_draft_candidates,
